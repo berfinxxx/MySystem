@@ -1,0 +1,51 @@
+package MySystem
+public
+	system user_interface
+		
+	end user_interface;
+	
+	system application
+		
+	end application;
+	system implementation application.Imp
+		subcomponents
+			this_AI_engine: device AI_Engine;
+			this_authentication: device authentication;
+			this_communication: device communication;
+			this_cloud_storage: device cloud_storage;
+			this_data_management: device data_management;
+		
+	end application.Imp;
+	
+	device AI_Engine
+		
+	end AI_Engine;
+	device implementation AI_Engine.Imp
+		
+	end AI_Engine.Imp;
+		
+	device authentication
+		
+	end authentication;
+	device implementation authentication.Imp
+		
+	end authentication.Imp;
+	device communication
+		
+	end communication;
+	device implementation communication.Imp
+		
+	end communication.Imp;
+	device cloud_storage
+		
+	end cloud_storage;
+	device implementation cloud_storage.Imp
+		
+	end cloud_storage.Imp;
+	device data_management
+		
+	end data_management;
+	device implementation data_management.Imp
+		
+	end data_management.Imp;
+end MySystem;
